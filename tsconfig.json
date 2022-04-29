@@ -23,5 +23,5 @@
     }
   },
 
-  "include": ["src", "shims.d.ts", "env.d.ts", "global.d.ts"]
+  "include": ["src", "test", "shims.d.ts", "env.d.ts", "global.d.ts"]
 }
