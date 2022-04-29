@@ -2,5 +2,7 @@
 
 exports[`tsx vue pinia > test mounted 1`] = `
 "<h1>Hello dmoosocool ~</h1>
-<p>your counter: 0</p><button class=\\"plus-btn\\">+</button><button class=\\"minus-btn\\">-</button>"
+<p>your counter: 0</p>
+<button class=\\"plus-btn\\">+</button>
+<button class=\\"minus-btn\\">-</button>"
 `;
