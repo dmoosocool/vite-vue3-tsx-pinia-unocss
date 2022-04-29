@@ -7,5 +7,7 @@
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "rules": {}
+  "rules": {
+    "semi":["error", "never"]
+  }
 }

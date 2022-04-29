@@ -1,9 +1,10 @@
 /// <reference types="vitest" />
 
-import { defineConfig } from 'vite';
-import path from 'path';
-import vue from '@vitejs/plugin-vue';
-import jsx from '@vitejs/plugin-vue-jsx';
+import { defineConfig } from 'vite'
+import path from 'path'
+import vue from '@vitejs/plugin-vue'
+import jsx from '@vitejs/plugin-vue-jsx'
+import Unocss from 'unocss/vite'
 
 export default defineConfig({
   esbuild: {
@@ -18,10 +19,10 @@ export default defineConfig({
       web: [/.[tj]sx$/],
     },
   },
-  plugins: [vue(), jsx()],
+  plugins: [vue(), jsx(), Unocss()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-});
+})

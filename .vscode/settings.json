@@ -1,12 +1,18 @@
 {
   "cSpell.words": [
+    "attributify",
     "commitlint",
     "esbuild",
+    "hstack",
     "Lich",
     "Parens",
     "pinia",
+    "unocss",
     "vite",
     "vitejs",
-    "vitest"
+    "vitest",
+    "vstack",
+    "Windi",
+    "windicss"
   ]
 }

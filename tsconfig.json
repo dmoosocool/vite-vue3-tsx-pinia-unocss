@@ -16,15 +16,12 @@
     "removeComments": true,
     "jsx": "preserve",
     "lib": ["esnext", "dom"],
-    "types": ["node","vitest/global"],
+    "types": ["node","vitest/globals"],
     "rootDir": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
   },
 
-  "include": [
-    "src",
-    "global.d.ts"
-  ]
+  "include": ["src", "shims.d.ts", "env.d.ts", "global.d.ts"]
 }
