@@ -1,4 +1,4 @@
-# vite vue tsx starter
+# Vite Vue-TSX starter
 Personal starter template for `Vite` + `Vitest` + `Vue3` + `TSX` + `Vue Router4` + `Pinia` + `unocss`.
 
 # Integrated Plugins
